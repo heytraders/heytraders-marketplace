@@ -1,0 +1,23 @@
+{
+  "name": "heytraders-marketplace",
+  "owner": {
+    "name": "HeyTraders",
+    "email": "heytraders.official@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for HeyTraders!",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "heytraders-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heytraders/heytraders-cli.git"
+      },
+      "description": "CLI for quantitative trading. Analyze charts (67 drawing types), fetch market data, run backtests, and execute trades.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}
