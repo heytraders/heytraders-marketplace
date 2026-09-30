@@ -5,19 +5,23 @@
     "email": "heytraders.official@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code plugins for HeyTraders!",
+    "description": "Claude plugins for HeyTraders!",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "heytraders-cli",
+      "name": "heytraders",
       "source": {
-        "source": "url",
-        "url": "https://github.com/heytraders/heytraders-cli.git"
+        "source": "git-subdir",
+        "url": "https://github.com/heytraders/HeyTraders-Claude.git",
+        "path": "plugins/heytraders",
+        "ref": "main"
       },
-      "description": "CLI for quantitative trading. Analyze charts (67 drawing types), fetch market data, run backtests, and execute trades.",
-      "version": "1.0.0",
-      "strict": true
+      "description": "Agent-native access to HeyTraders research, chart analysis, backtesting, and paper simulation through Claude's browser.",
+      "category": "finance"
     }
-  ]
+  ],
+  "renames": {
+    "heytraders-cli": null
+  }
 }

@@ -1,6 +1,6 @@
 # HeyTraders Marketplace
 
-Claude Code plugins for quantitative trading.
+Claude plugins for HeyTraders.
 
 ## Installation
 
@@ -12,25 +12,30 @@ Add this marketplace to Claude Code:
 
 ## Available Plugins
 
-### heytraders-cli
+### heytraders
 
-CLI for quantitative trading. Analyze charts, fetch market data, run backtests, and execute trades — all from the terminal.
+Hey-Traders! Quant Trading gives Claude agent-native access to HeyTraders through Claude's browser. You can use it with Claude in Chrome or with the Claude desktop app's built-in Browser pane.
 
 **Install:**
 
 ```
-/plugin install heytraders-cli@heytraders-marketplace
+/plugin install heytraders@heytraders-marketplace
 ```
 
 **What you get:**
 
-- 30+ chart actions with 67 drawing types and 400+ indicators
-- Market data screening with expression-based scan and rank
-- Async backtesting with result analysis
-- Order management and live strategy subscriptions
-- Pre-built quant analyst agent for autonomous trading workflows
+- Chart analysis and chart operations: indicators, drawings, panes, and layout
+- Market data and market research
+- Strategy building and backtesting
+- Strategies in simulated paper mode
 
-**Repository:** https://github.com/heytraders/heytraders-cli
+The plugin does not place, change, or cancel real orders. It also does not run live trade-mode strategies or connect exchanges.
+
+**Repository:** https://github.com/heytraders/HeyTraders-Claude
+
+## Removed Plugins
+
+`heytraders-cli` was a legacy plugin and is no longer listed. When this marketplace updates, Claude Code drops it from users' enabled plugins and reports it as removed.
 
 ## Marketplace Structure
 
@@ -44,7 +49,7 @@ heytraders-marketplace/
 ## Support
 
 - **Issues**: https://github.com/heytraders/heytraders-marketplace/issues
-- **CLI Plugin**: https://github.com/heytraders/heytraders-cli
+- **Plugin**: https://github.com/heytraders/HeyTraders-Claude
 
 ## License
 
