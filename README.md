@@ -14,7 +14,7 @@ Add this marketplace to Claude Code:
 
 ### heytraders
 
-Hey-Traders! Quant Trading gives Claude agent-native access to HeyTraders through Claude's browser. You can use it with Claude in Chrome or with the Claude desktop app's built-in Browser pane.
+Hey-Traders! Quant Trading gives Claude agent-native access to HeyTraders through a browser Claude controls. Claude uses the Claude desktop app's built-in Browser pane when it is available, and otherwise `playwright-cli` in Claude Code.
 
 **Install:**
 

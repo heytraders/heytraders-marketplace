@@ -17,7 +17,7 @@
         "path": "plugins/heytraders",
         "ref": "main"
       },
-      "description": "Agent-native access to HeyTraders research, chart analysis, backtesting, and paper simulation through Claude's browser.",
+      "description": "Agent-native access to HeyTraders research, chart analysis, backtesting, and paper simulation through the Claude desktop Browser pane or playwright-cli.",
       "category": "finance"
     }
   ],
